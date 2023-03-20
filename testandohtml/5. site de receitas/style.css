@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../pictures/ground.png) repeat-x;
+
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    width: 350px;
+    height: 100px;
+    background: url(../pictures/logo.png) no-repeat center;
+    padding: 30px;
+    text-indent: -3000px;
+}
+
+/* menu */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    background: #FF6F31;
+    margin-top: 90px;
+    float: left;
+
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 1em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+#topo ul a:hover {
+    color: #FF3131
+}
+
+
+body.inicio #nav a#inicio,
+body.tortas #nav a#tortas,
+body.bolos #nav a#bolos,
+body.massas #nav a#massas,
+body.lanches #nav a#lanches,
+body.sobremesas #nav a#sobremesas,
+body.molhos #nav a#molhos{
+    color: #fff;
+    background: #FD804A;
+    cursor: text;
+}
